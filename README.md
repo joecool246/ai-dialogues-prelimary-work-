@@ -1,7 +1,7 @@
 # ai-dialogues-prelimary-work-
 Preliminary work over ai dialogues
 
-This is a private repo documenting intial workings with AI Dialogues. More up to date work will be with Purdue's GRAIL Github. Please note that this work is intellectual propertiery and thus not much can be shared on this repo. 
+This is a repo documenting intial workings with AI Dialogues. More up to date work will be with Purdue's GRAIL Github. Please note that this work is intellectual propertiery and thus not much can be shared on this repo. 
 
 Project Iterations:
 
