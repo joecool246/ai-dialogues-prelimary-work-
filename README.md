@@ -26,7 +26,7 @@ You choose the topic, debate back and forth, and end the session with a stop tok
 ## Requirements
 
 ### Software
-- **Python 3.9+** (3.10 or 3.11 recommended)
+- **Python 3.9+** (3.13 recommended)
 - Internet connection
 
 ### API Access
