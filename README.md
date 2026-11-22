@@ -1,3 +1,36 @@
+# Gemini Debate CLI — Early ConvoLab Exploration
+
+**An interactive Python command-line prototype for structured, safety-bounded debate with Google Gemini.**
+
+**Stack:** Python, Google Gen AI SDK.  
+**Status:** Early-stage personal experiment, not the production ConvoLab application. The larger team's newer work is maintained separately.
+
+## What I built
+
+- A configurable Gemini debate persona with explicit boundaries around violent, hateful, and extremist content.
+- A conversational CLI with a topic prompt, multi-turn chat session, and explicit stop command.
+- Environment-variable API-key loading so credentials do not need to be committed.
+
+This repository is a **small API-integration prototype**. It does not implement a full-stack web app, automatic evaluations, or production reliability infrastructure.
+
+## Quick start
+
+```bash
+python -m venv .venv
+# Activate the environment for your OS
+pip install -r requirements.txt
+# Set GEMINI_API_KEY in your shell
+python debate_script.py
+```
+
+The original setup steps and behavior are documented below. A valid Gemini API key and network access are required.
+
+> This prototype is intended for dialogue research and practice. Generated arguments belong to a simulated persona, not an endorsement of those claims. Prompt instructions reduce risk but do **not** guarantee model behavior.
+
+---
+
+## Original project notes
+
 # Gemini Debate CLI — Early ConvoLab Prototype
 
 **Python · Google Gemini API · Persona prompting · Interactive CLI**
